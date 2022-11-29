@@ -1,6 +1,6 @@
 
 
-# ☁️ *NYARI GRATISAN PROJECT™ version 0.01* ☁️
+# ☁️ *ROMI SYAFRIAL™ version 0.01* ☁️
 
 Project Fog is a VPS AutoScript for Ubuntu and Debian Distros. Comes with pre-installed tunneling software. See below for a list of pre-installed programs.
 
