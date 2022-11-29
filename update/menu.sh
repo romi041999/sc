@@ -28,9 +28,9 @@ LIGHT='\033[0;37m'
 # =========================================
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m          ⇱ Menu Utama Ridwan ⇲          \E[0m"
+echo -e "\E[44;1;39m          ⇱ Menu Utama romi ⇲          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "❇️ Script By : Ridwan"
+echo -e "❇️ Script By : romi"
 echo -e "❇️ Exp Script  : Unlimitid"
 echo -e "❇️ Version     : Latest Version"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -51,7 +51,7 @@ echo -e "❇️ 14) CEK V2RAY "
 echo -e "❇️ 15) EDIT PATCH V2RAY "
 echo -e "❇️ 16) EXIT                                                        "
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m            ⇱ Script By Ridwan ⇲             \E[0m"
+echo -e "\E[44;1;39m            ⇱ Script By romi ⇲             \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 read -p "Select From Options [ 1 - 13 ] : " menu
 case $menu in
