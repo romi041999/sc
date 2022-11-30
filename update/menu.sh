@@ -25,35 +25,45 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
-# =========================================
+echo -e "$bl ╒════════════════════════════════════════════╕$NC"
+echo -e "  \E[41;1;39m               ⇱ MENU UTAMA ⇲               \E[0m"
+echo -e "$bl ╘════════════════════════════════════════════╛$NC"
+echo -e "$NC  [$bl 1$NC ]$NC  SSH & OpenVPN MENU  $NC"
+echo -e "$NC  [$bl 2$NC ]$NC  L2TP MENU$NC"
+echo -e "$NC  [$bl 3$NC ]$NC  PPTP MENU$NC"
+echo -e "$NC  [$bl 4$NC ]$NC  SSTP MENU$NC"
+echo -e "$NC  [$bl 5$NC ]$NC  WIREGUARD MENU$NC"
+echo -e "$NC  [$bl 6$NC ]$NC  SHADOWSOCKS MENU$NC"
+echo -e "$NC  [$bl 7$NC ]$NC  SHADOWSOCKSR MENU$NC"
+echo -e "$bl ╒════════════════════════════════════════════╕$NC"
+echo -e "  \E[41;1;39m               ⇱ MENU XRAY ⇲                \E[0m"
+echo -e "$bl ╘════════════════════════════════════════════╛$NC"
+echo -e "$NC  [$bl 8$NC ]$NC  XRAY VMESS MENU$NC"
+echo -e "$NC  [$bl 9$NC ]$NC  XRAY VLESS MENU$NC"
+echo -e "$NC  [$bl 10$NC ]$NC XRAY TROJAN MENU$NC"
+echo -e "$NC  [$bl 11$NC ]$NC TROJAN GO MENU$NC"
+echo -e "$NC  [$bl 12$NC ]$NC XRAY GRPC MENU$NC"
+echo -e "$bl ╒════════════════════════════════════════════╕$NC"
+echo -e "  \E[41;1;39m               ⇱ MENU SETTING ⇲             \E[0m"
+echo -e "$bl ╘════════════════════════════════════════════╛$NC"
+echo -e "$NC  [$bl 13$NC ]$NC SLOWDNS MENU (OFF)$NC"
+echo -e "$NC  [$bl 14$NC ]$NC CEK SEMUA IP PORT$NC"
+echo -e "$NC  [$bl 15$NC ]$NC CEK SEMUA SERVICE VPN$NC"
+echo -e "$NC  [$bl 16$NC ]$NC UPDATE MENU (Update 2x)$NC"
+echo -e "$NC  [$bl 17$NC ]$NC SL-FIX (Perbaiki Error SSLH+WS-TLS setelah reboot)$NC"
+echo -e "$NC  [$bl 18$NC ]$NC Settings (Pengaturan)$NC"
+echo -e "$NC  [$bl 19$NC ]$NC Exit (Keluar)$NC"
+echo -e "$NC  [$bl 20$NC ]$NC copyrepo (Salin Repo Script Mantap)$NC"
+echo -e "$NC  [$bl 21$NC ]$NC menuinfo (Untuk Mendapatkan Informasi)$NC"
+echo -e "$NC  [$bl 22$NC ]$NC grpcmenu2 (GRPC BARU)$NC"
 echo -e ""
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m          ⇱ Menu Utama romi ⇲          \E[0m"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "❇️ Script By : romi"
-echo -e "❇️ Exp Script  : Unlimitid"
-echo -e "❇️ Version     : Latest Version"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "❇️ 1) SSH & OpenVPN MENU                                          "
-echo -e "❇️ 2) L2TP MENU                                                   "
-echo -e "❇️ 3) PPTP MENU                                                "
-echo -e "❇️ 4) SSTP MENU                                                "
-echo -e "❇️ 5) WIREGUARD MENU                                            "
-echo -e "❇️ 6) SHADOWSOCKS MENU                                          "
-echo -e "❇️ 7) SHADOWSOCKSR MENU                                          "
-echo -e "❇️ 8) VMESS MENU                                                 "
-echo -e "❇️ 9) VLESS MENU                                               "
-echo -e "❇️ 10) TROJAN GFW MENU                                         "
-echo -e "❇️ 11) TROJAN GO MENU                                            "
-echo -e "❇️ 12) CEK SERVICE VPS                                            "
-echo -e "❇️ 13) PENGATURAN                                                "
-echo -e "❇️ 14) CEK V2RAY "
-echo -e "❇️ 15) EDIT PATCH V2RAY "
-echo -e "❇️ 16) EXIT                                                        "
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m            ⇱ Script By romi ⇲             \E[0m"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-read -p "Select From Options [ 1 - 13 ] : " menu
+echo -e "$NC  [ Ctrl+Z ] Untuk Stop Script$NC"
+echo -e "$bl ╒════════════════════════════════════════════╕$NC"
+echo -e "$NC   VERSION  : $mg XRAY WEBSOCKET"
+echo -e "$NC   STATUS   : $gl AKTIF"
+echo -e "$NC   CREATOR  :  ROMY STORE"
+echo -e "$bl ╘════════════════════════════════════════════╛$NC"
+read -p "  Select From Options [ 1 - 22 ] : " menu
 case $menu in
 1)
 clear
@@ -101,23 +111,47 @@ trgomenu
 ;;
 12)
 clear
-running
+grpcmenu
 ;;
 13)
 clear
-setmenu
+slowdnsmenu
 ;;
 14)
 clear
-cekxray
+ipsaya
 ;;
 15)
 clear
-nano /etc/xray/config.json
+running
 ;;
 16)
 clear
+updatemenu
+;;
+17)
+clear
+sl-fix
+;;
+18)
+clear
+setmenu
+;;
+19)
+clear
 exit
+;;
+20)
+clear
+copyrepo
+;;
+21)
+clear
+menuinfo
+;;
+22)
+clear
+grpcmenu2
 ;;
 *)
 clear
