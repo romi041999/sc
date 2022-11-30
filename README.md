@@ -22,7 +22,7 @@ Project Fog is a VPS AutoScript for Ubuntu and Debian Distros. Comes with pre-in
 
 ## Installation
 
-_It will install the version of NYARI GRATISAN PROJECT™ that is compatible with your VPS's operating system and version._
+_It will install the version of Romi Syafrial PROJECT™ that is compatible with your VPS's operating system and version._
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
@@ -42,7 +42,7 @@ _The version can be manually chosen for your virtual private server if universal
 
 
 ## Command: _menu_ 
-`Use this to access NYARI GRATISAN PROJECT through vps terminal`
+`Use this to access Romi Syafrial PROJECT through vps terminal`
 #
 
     
