@@ -19,35 +19,35 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/anuy639/sc/main/ssh"
+akbarvpn="raw.githubusercontent.com/romi041999/sc/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/anuy639/sc/main/sstp"
+akbarvpnn="raw.githubusercontent.com/romi041999/sc/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/anuy639/sc/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/romi041999/sc/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/anuy639/sc/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/romi041999/sc/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/anuy639/sc/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/romi041999/sc/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/anuy639/sc/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/romi041999/sc/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/romi041999/sc/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/romi041999/sc/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/romi041999/sc/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/romi041999/sc/main/ohp"
 
 # Getting
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m          ⇱ SCRIPT BY Anuybazoelk639 ⇲          \E[0m"
+echo -e "\E[44;1;39m          ⇱ SCRIPT BY Romi syafrial ⇲          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 sleep 5
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$( curl https://anuy639.github.io/izin | grep $MYIP )
+IZIN=$( curl https://romi041999.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
@@ -66,7 +66,7 @@ clear
 sleep 1
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m          ⇱ NYARI GRATISAN PROJECT ⇲          \E[0m"
+echo -e "\E[44;1;39m          ⇱ Romi Syafrial PROJECT ⇲          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 sleep 2
@@ -212,7 +212,7 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m          ⇱ INSTALL NYARI GRATISAN PROJECT SELESAI ⇲          \E[0m"
+echo -e "\E[44;1;39m          ⇱ INSTALL Romi Syafrial PROJECT SELESAI ⇲          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 sleep 2
