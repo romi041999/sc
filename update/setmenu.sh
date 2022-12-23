@@ -1,9 +1,9 @@
 #!/bin/bash
 #!/bin/bash
 clear
-GREEN='\033[0;32m'
-PURPLE='\033[0;35m'
-CYAN='\033[0;36m'
+CYAN='\033[0;32m'
+GREEN='\033[0;35m'
+PURPLE='\033[0;36m'
 NC='\033[0m'
 yl='\e[32;1m'
 bl='\e[36;1m'
